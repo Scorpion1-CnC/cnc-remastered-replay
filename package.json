@@ -1,0 +1,17 @@
+{
+  "name": "td-remastered-replay",
+  "version": "0.1.0",
+  "description": "Decoder for Command & Conquer Remastered (Tiberian Dawn) .Replay files: header, players, every unit and building over time, production and build orders, player inputs, score screen.",
+  "license": "MIT",
+  "type": "module",
+  "files": ["src", "examples", "docs", "bali and nobo readme.md", "LICENSE"],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "example": "tsx examples/summary.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
